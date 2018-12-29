@@ -37,16 +37,18 @@ class Testx:
             elif opt == '-p':
                 self.pattern = arg
                 
-def my_function(arg, *var_tuple, **var_dict):
+def my_function(arg, *var_tuple):
     print arg
     print var_tuple
-    print var_dict
     for var in var_tuple:
         print var
-    for key, value in var_dict.items():
-        print key, value
-    
+
 sum = lambda a, b: a + b
     
 if __name__ == "__main__":
-    my_function(1,2,3,4,age='1',name='tommy')
+    print "世界,你好"
+    t = Testx("Linux 2.6", ".")
+    t.my_getopt()
+    t.my_match()
+    t.my_print()
+    
