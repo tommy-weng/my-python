@@ -1,24 +1,11 @@
 #!/usr/bin/python
 
+# -*- coding: utf-8 -*-
 
+L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
 
-import re
+def by_name(t):
+	return t[1]
 
-class Hello:
-    name = []
-    salary = 0
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
-
-    def print_module(self):
-        print __name__
-    def showx(self):
-        print "name:%s, salary:%d" % (self.name, self.salary)
-
-
-if __name__ == "__main__":
-    print "Start: %s" % "xx"
-    t = Hello("Tommy", 10)
-    print t.showx
-
+L2 = sorted(L, key=by_name, reverse=True)
+print(L2)
