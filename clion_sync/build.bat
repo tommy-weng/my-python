@@ -1,0 +1,1 @@
+pyinstaller  main.py --onefile --noupx --hidden-import tkinter -n CLionSync --add-data="remote;remote" --add-data="cwrsync;cwrsync" --add-data="x86_64-pc-linux-gnu-g++_macros.h;." --add-data="x86_64-pc-linux-gnu-gcc_macros.h;." --hidden-import=win32timezone --hidden-import=watchdog --hidden-import=paramiko

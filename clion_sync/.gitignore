@@ -1,0 +1,12 @@
+/gnb
+clion_sync_list.txt
+code.tar.gz
+new_compile_commands.json
+sync_list.txt
+*.pyc
+configure.json
+compile_commands.json
+/build
+/dist
+*.spec
+/.vscode

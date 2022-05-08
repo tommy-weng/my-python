@@ -1,0 +1,1 @@
+python s3cmd/s3cmd put dist/CLionSync.exe s3://mMIMO-debug-tool --acl-public --mime-type=application/x-msdownload
