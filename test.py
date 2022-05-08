@@ -6,14 +6,13 @@ Author sweng
 Date   2017-12-22
 """
 
-def foo(i):
-    if i == 0:
-        print True
-    elif i == 1:
-        print False
-        return
-    else:
-        print 2
+import sys
+import time
+def foo():
+    for i in range(5):
+        sys.stdout.write("1111\n")
+        #sys.stdout.flush()
+        time.sleep(1)
 
 if __name__ == "__main__":
-    foo(2)
+    foo()
