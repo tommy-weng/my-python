@@ -1,10 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 
-"""
-Author sweng
-Date   2017-12-22
-"""
 
 import sys
 import time
